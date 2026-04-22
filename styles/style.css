@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 183px;
+  gap: 180px;
 }
 
 .content-section {
@@ -13,7 +13,7 @@ main {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
-  padding: 92px 51px 89px;
+  padding: 92px 24px 96px;
 }
 
 .header__links-list {
@@ -90,7 +90,7 @@ main {
   z-index: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background-color: #000000;
 }
 
@@ -127,7 +127,6 @@ main {
 }
 
 /* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
-
 .remove-spacing {
   letter-spacing: normal;
 }
@@ -139,7 +138,7 @@ main {
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
-  padding: 136px 0 0;
+  padding: 124px 0 0;
 }
 
 .cover__description-text {
@@ -187,7 +186,7 @@ main {
   list-style: none;
 }
 
-.lost__card-list-item {
+.lots__card-list-item {
   height: 100%;
 }
 
@@ -283,7 +282,7 @@ main {
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 100px 0 100px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -304,7 +303,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 80px;
+  padding: 180px 50px 88px;
 }
 
 .footer__social-icon {
